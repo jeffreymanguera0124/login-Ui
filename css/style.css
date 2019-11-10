@@ -1,0 +1,115 @@
+#formlogin {
+   background-image: repeating-linear-gradient(90deg, rgb(30, 30, 30) 0px, rgb(30, 30, 30) 42px,rgb(32, 32, 32) 42px, rgb(32, 32, 32) 84px,rgb(33, 33, 33) 84px, rgb(33, 33, 33) 126px,rgb(31, 31, 31) 126px, rgb(31, 31, 31) 168px,rgb(31, 31, 31) 168px, rgb(31, 31, 31) 210px,rgb(32, 32, 32) 210px, rgb(32, 32, 32) 252px,rgb(34, 34, 34) 252px, rgb(34, 34, 34) 294px,rgb(33, 33, 33) 294px, rgb(33, 33, 33) 336px)
+
+}
+
+.login-container h2{
+   text-align: center;
+   font-size: 40px;
+}
+
+.form-logo{
+   width: 100%;
+   height: auto;
+   text-align: center;
+}
+
+h1{
+   text-align: center;
+}
+
+   /* Container ng login at kapal and center align*/
+.login-container{ 
+   margin: 0 auto; 
+   width: 40%;
+   margin-top: 12vh;
+}
+
+/* background style ng login container */
+.login-container{
+   background-color: white;
+   border: 2px solid black;
+   border-radius: 4px;
+   height: auto;
+   padding: 2rem;
+   box-shadow: 4px 6px 18px #888888;
+   background-image: linear-gradient(135deg, rgba(185, 185, 185, 0.5) 0%, rgba(185, 185, 185, 0.5) 12.5%,rgba(191, 191, 191, 0.5) 12.5%, rgba(191, 191, 191, 0.5) 25%,rgba(198, 198, 198, 0.5) 25%, rgba(198, 198, 198, 0.5) 37.5%,rgba(204, 204, 204, 0.5) 37.5%, rgba(204, 204, 204, 0.5) 50%,rgba(210, 210, 210, 0.5) 50%, rgba(210, 210, 210, 0.5) 62.5%,rgba(216, 216, 216, 0.5) 62.5%, rgba(216, 216, 216, 0.5) 75%,rgba(223, 223, 223, 0.5) 75%, rgba(223, 223, 223, 0.5) 87.5%,rgba(229, 229, 229, 0.5) 87.5%, rgba(229, 229, 229, 0.5) 100%),linear-gradient(45deg, rgb(230, 230, 230) 0%, rgb(230, 230, 230) 12.5%,rgb(224, 224, 224) 12.5%, rgb(224, 224, 224) 25%,rgb(217, 217, 217) 25%, rgb(217, 217, 217) 37.5%,rgb(211, 211, 211) 37.5%, rgb(211, 211, 211) 50%,rgb(205, 205, 205) 50%, rgb(205, 205, 205) 62.5%,rgb(199, 199, 199) 62.5%, rgb(199, 199, 199) 75%,rgb(192, 192, 192) 75%, rgb(192, 192, 192) 87.5%,rgb(186, 186, 186) 87.5%, rgb(186, 186, 186) 100%)
+}
+
+.form-element{
+   width:100%;
+}
+
+/* label focus */
+.form-element label{
+   display: block;
+   font-size: 22px;
+   margin-top: 1rem;
+}
+
+
+/* txtuser and txtpass CSS */
+.form-element input[type=text], .form-element input[type=password]{
+   font-size: 22px;
+   width: 100%;
+   padding: 12px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   color: #5e5c5c;
+}
+
+/* eto ang button */
+.login-container button{ 
+   width: 100%;
+   letter-spacing: 6px;
+   border-radius: 4px;
+   margin-top: 2rem;
+   font-size: 32px;
+   padding: 1rem;
+   background-color: rgb(2, 110, 165);
+   border: none;
+   color: white;
+   cursor: pointer;
+}  
+
+
+
+/*  mouse hover sa button */
+.login-container button:hover{
+   background-color: rgb(45, 174, 190);
+}
+
+/* Css selector . general to sa lahat ng element */
+* { 
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+   font-family: "Arial";
+}
+
+table{
+   border: 2px solid;
+   border-color: #00BFFF;
+   border-bottom: 2px solid #00BFFF;
+   border-collapse: collapse;
+   width: 100%;
+}
+
+th, td{
+   text-align: left;
+   padding: 8px;
+   border-bottom: 1px solid #ddd;
+}
+
+th{
+   background-color: #00BFFF;
+
+}
+
+tr:nth-child(even) { 
+   background-color: #f2f2f2;
+}
+
